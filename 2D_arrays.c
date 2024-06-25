@@ -20,7 +20,7 @@ int main()
         }
         
     }
-    
+
     //printing the array
     printf("\n\n\nHere's the array:\n");
 
@@ -35,6 +35,11 @@ int main()
         
     }
     
+    //accessing and changing the elements
+    
+    printf("intially arr[0][2] was: %d\n",arr[0][2]);
+    arr[0][2]=9;
+    printf("Now it is : %d", arr[0][2]);
 
     return 0;
 }
