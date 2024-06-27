@@ -12,7 +12,7 @@ int main()
     if (num == 0 || num == 1)
     {
         printf("1");
-        return 0;
+        
     }
     
     else
